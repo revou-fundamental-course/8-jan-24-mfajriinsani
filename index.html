@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="css/css.css">
     
     <title>mini projek revou</title>
@@ -15,14 +16,32 @@
     <h2>Welcome To Katik</h2>
 
     <div class="luaspersegi">
-        <h3>Hitung luas Persegi</h3><br>
+        <h3>Hitung Luas Persegi</h3><br>
         <img src="img/persegi.png" alt=""><br>
+        <p>Rumus Luas Persegi</p>
+        <p>L = S x S</p>
 
-            <input type="number" id="sisi" placeholder="masukkan sisi"><br>
-            <button class="button luas" id="luas">Hitung</button>
-            <button class="button1 reset" id="reset">Reset</button>
+            <input type="number" id="input" onInput="input()" placeholder="masukkan sisi"><br>
+            <button class="button luas" id="luas" onclick="result()">Hitung</button>
+            <button class="button1 reset" id="reset" onclick="reset()" type="reset">Reset</button>
         
-            <p class="output" id="output1"></p>
+            <p id="output"></p>
+            <p id="result"></p>
+
+    </div><br>
+
+    <div class="kelilingpersegi">
+        <h3>Hitung Keliling Persegi</h3><br>
+        <img src="img/persegi.png" alt=""><br>
+        <p>Rumus Keliling Persegi</p>
+        <p>K = 4 x S</p>
+
+            <input type="number" id="input2" onInput="input2()" placeholder="masukkan sisi"><br>
+            <button class="button luas" id="keliling" onclick="result2()">Hitung</button>
+            <button class="button1 reset" id="reset2" onclick="reset2()" type="reset">Reset</button>
+        
+            <p id="output2"></p>
+            <p id="result2"></p>
 
     </div>
 

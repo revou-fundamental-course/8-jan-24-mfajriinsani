@@ -3,30 +3,35 @@ header{
     text-decoration-line: underline;
     background-color: rgb(3, 112, 255);
     padding: 10px;
+    max-width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header,h1{
     text-align: center;
     color: aqua;
     float: l;
+    max-width: 100%;
 }
 
 h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    max-width: 100%;
 }
 
 .luaspersegi{
-    padding-bottom: 120px;
+    padding-bottom: 100px;
     background-color: bisque;
     border-style: solid;
     border-radius: 20px;
+    max-width: 100%;
 }
 div,h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 30px;
+    max-width: 100%;
     padding-top: 10px;
 }
 img{
@@ -54,11 +59,13 @@ input[type=number]{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    max-width: 100%;
 }
 .luas {
     background-color: white; 
     color: black; 
     border: 2px solid #04AA6D;
+    max-width: 100%;
 }
 .luas:hover {
     background-color: #04AA6D;
@@ -88,8 +95,11 @@ input[type=number]{
     background-color: #bb3f3f;
     color: white;
 }
-p{
-    background-color: aquamarine;
-    padding: 30px;
 
-} 
+.kelilingpersegi{
+    padding-bottom: 100px;
+    background-color: bisque;
+    border-style: solid;
+    border-radius: 20px;
+    max-width: 100%;
+}
