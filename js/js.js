@@ -13,4 +13,4 @@ function reset() {
     btnclear.addEventListener('click',()=>{
         inputs.forEach(input=>input.value ='');
     });
-}
+} 
