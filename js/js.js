@@ -32,6 +32,6 @@ function result2(){
     result2.innerHTML = "Keliling = "+ 4 * tvalue2
 }
 
-function reset2() {
-    document.getElementById("output2").value = "";
+function reset2() { 
+    document.getElementById("input2").value = "";
 } 
