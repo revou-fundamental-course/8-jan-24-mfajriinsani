@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
-    <script src="js/javascript.js"></script>
+    
     <title>mini projek revou</title>
 </head>
 <header>
@@ -18,11 +18,14 @@
         <h3>Hitung luas Persegi</h3><br>
         <img src="img/persegi.png" alt=""><br>
 
-            <input type="number" id="sisi" name="sisi" placeholder="masukkan sisi"><br>
-            <button class="button luas" onclick="hitungluas()">Hitung</button>
-            <button class="button1 reset">Reset</button>
+            <input type="number" id="sisi" placeholder="masukkan sisi"><br>
+            <button class="button luas" id="luas">Hitung</button>
+            <button class="button1 reset" id="reset">Reset</button>
+        
+            <p class="output" id="output1"></p>
 
     </div>
-    
+
+    <script src="js/js.js"></script>
 </body>
 </html>

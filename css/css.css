@@ -18,7 +18,7 @@ h2{
 }
 
 .luaspersegi{
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     background-color: bisque;
     border-style: solid;
     border-radius: 20px;
@@ -87,4 +87,9 @@ input[type=number]{
 .reset:hover {
     background-color: #bb3f3f;
     color: white;
+}
+p{
+    background-color: aquamarine;
+    padding: 30px;
+
 }

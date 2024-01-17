@@ -1,19 +1,14 @@
-function hitungluas() {
-    let sisi = document.getElementById("sisi").value
-    let hasilluas = parseInt(sisi) *  parseInt(sisi)
+let sisi = document.getElementById('sisi');
+let luas = document.getElementById('luas');
+let out1 = document.getElementById('output1');
 
-    console.log(hasilluas)
+function fun1() {
+    out1.innerHTML = sisi.value;
 }
-
-function hitungkeliling() {
-    let sisi = document.getElementById("sisi").value
-    let hasilkeliling = 4 *  parseInt(sisi)
-
-    console.log(hasilkeliling)
-}
+luas.addEventListener('click',fun1);
 
 function reset() {
-    let btnclear = document.querySelector('button1 reset');
+    let btnclear = document.querySelector('reset');
     let inputs = document.querySelectorAll('input');
     btnclear.addEventListener('click',()=>{
         inputs.forEach(input=>input.value ='');
