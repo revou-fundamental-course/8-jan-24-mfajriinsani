@@ -24,7 +24,7 @@ function input2(){
     let tvalue2 = input2.value;
 
     let output2 = document.getElementById('output2');
-    output2.innerText = "K = 4 x" +tvalue2;
+    output2.innerText = "K = 4 x " +tvalue2;  
 }
 
 function result2(){
