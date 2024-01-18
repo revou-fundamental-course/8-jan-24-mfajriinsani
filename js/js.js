@@ -15,6 +15,8 @@ function result(){
 
 function reset() {
     document.getElementById("input").value = "";
+    document.getElementById("output").innerHTML = "";
+    document.getElementById("result").innerHTML = "";
 } 
 
 function input2(){
@@ -34,4 +36,6 @@ function result2(){
 
 function reset2() { 
     document.getElementById("input2").value = "";
+    document.getElementById("output2").innerHTML = "";
+    document.getElementById("result2").innerHTML = "";
 } 
